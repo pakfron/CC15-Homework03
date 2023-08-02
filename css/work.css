@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header>nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header>nav>a:nth-child(2) {
+    color: salmon;
+}
+
+
+header>nav>a {
+    text-decoration: none;
+    color: black;
+    /* background-color: aqua; */
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.head-container {
+    /* background-color: black; */
+    /* max-height: 500px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.head-box {
+
+    width: 700px;
+    /* height: 100%; */
+    /* background-color: green; */
+
+}
+
+.head-info {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+
+}
+
+.profile {
+    max-width: 500px;
+    /* height: 100%; */
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.profile>div>span {
+    max-width: 470px;
+    display: block;
+    /* background-color: red; */
+    font-weight: bold;
+}
+
+.profile-detail {
+    /* background-color: blue; */
+    max-width: 70%;
+}
+
+.head-image {
+
+    max-width: auto;
+    /* height: 100%; */
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.head-image>img {
+    width: 180px;
+}
+
+.head-button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #ff6464;
+    border-radius: 4px;
+}
+
+.center {
+    background-color: #EDF7FA;
+
+    display: flex;
+    justify-content: center;
+}
+
+.center-box {
+    width: 700px;
+    height: 100%;
+    background-color: #EDF7FA;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 41px;
+}
+
+.center-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.paragraph-header {
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.center-navbar>a {
+    font-size: 14px;
+    color: #00a8cc;
+}
+
+
+.center-card-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-card-info-incard {
+    /* display: flex;
+    flex-direction: row; */
+    width: 48%;
+    background-color: white;
+}
+
+.center-card-info-p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px;
+}
+
+.center-card-detail {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.center-card-detail-info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.center-card-detail-info>div {
+    margin-right: 20px;
+}
+
+.end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.end-container {
+    width: 700px;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+}
+
+
+.end-header>div>p {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    /* margin-top: 20px; */
+}
+
+.end-header-work>div>p {
+    font-size: 44px;
+    margin: 30px 0 30px 0;
+    /* margin-top: 20px; */
+    color: #21243D;
+    font-weight: bolder;
+}
+
+.end-detail-card {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 20px;
+}
+
+.end-detail-card-info {
+    margin-left: 10px;
+}
+
+.end-detail-card-header {
+    /* background-color: green; */
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.end-detail-card-middle {
+    display: flex;
+    /* background-color: bisque; */
+    margin: 20px 0;
+
+}
+
+.years {
+    width: 62px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #142850;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 22px;
+
+}
+
+.catagory {
+    font-size: 20px;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.footer-icon>a {
+    margin: 0 18px 0 18px;
+}
+
+.footer-detail {
+    color: #21243d;
+    margin-top: 20px;
+}
